@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="raamat.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <script
+      crossorigin="anonymous"
+      src="https://kit.fontawesome.com/6f06b18aec.js"
+    ></script>
+    <link
+      href="https://bootswatch.com/5/minty/bootstrap.min.css"
+      id="csstheme"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:600,700"
+      id="fontsheet"
+      rel="stylesheet"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="raamat.js"></script>
+
+    <title>Raamatud</title>
+  </head>
+
+  <body>
+    <div class="container" id="container">
+      <h1 class="title" id="heading"> Raamatud </h1>
+
+      <div class="theme-switch-wrapper" id="switch-box">
+        <em> </em>
+        <label class="theme-switch" for="checkbox" id="switch">
+          <input id="checkbox" type="checkbox" />
+          <div class="slider round"></div>
+        </label>
+      </div>
+
+      <form id="book-form">
+        <label for="book-title">Pealkiri</label
+        ><input id="book-title" type="text" />
+        <label for="book-author">Autor</label
+        ><input id="book-author" type="text" />
+        <label for="book-page">Lehekülgi raamatus</label
+        ><input id="book-page" type="number" />
+        <input
+          class="btn btn-primary btn-block"
+          id="add-book-button"
+          type="submit"
+          value="Lisa raamat"
+        />
+      </form>
+
+      <table class="table" id="table">
+        <thead>
+          <tr>
+            <th>Pealkiri</th>
+            <th>Autor</th>
+            <th>Lehekülgi</th>
+            <th>Eemalda</th>
+          </tr>
+        </thead>
+        <tbody id="book-list"></tbody>
+      </table>
+    </div>
+  </body>
+</html>
