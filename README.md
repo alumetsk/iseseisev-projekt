@@ -58,3 +58,11 @@ Rakenduses võib kasutada teiste autorite koodi, aga see peab olema viidatud. Ü
 # Esitlus
 * Igale grupile on aega 15 minutit (6 minutit rakenduse esitlus, 6 minutit koodi esitlus, 3 minutit küsimused)
 * Esitama peavad grupiliikmed ühisel ajal. 
+
+# Raamaturiiuli rakendus
+Kadri Alumets
+
+* Saab sisestada raamatu pealkirja, autori ja lehekülgede arvu raamatus.
+* Saab lülitada darkmode
+* Saab kustutada raamatuid
+* Kui jääb väli täitmata, siis ei saa raamatut lisada
